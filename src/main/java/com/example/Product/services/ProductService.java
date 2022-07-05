@@ -8,10 +8,10 @@ import java.util.List;
 @Service
 public interface ProductService {
 
-    public Product createproduct(Product product);
-    public Product updateproduct(int productId,Product product);
-    public void deleteproduct(int productId);
-    public Product getproductbyId(int productId);
-    public List<Product> getproducts();
+    public Product createProduct(Product product);
+    public Product updateProduct(int productId,Product product);
+    public void deleteProduct(int productId);
+    public Product getProductbyId(int productId);
+    public List<Product> getProducts();
 
 }
